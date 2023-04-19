@@ -21,6 +21,7 @@ import {
 import tailwindComponent from '../plugins/tailwind'
 import swiperComponent from '../plugins/swiper'
 import chartLibComponent from '../plugins/charts'
+import carosuelComponent from '../components/InsertComponentsTab/InsertComponentChildComp/Carousel/Carousel'
 
 const geditorConfig = (assets, pageId) => {
 	$('.panel__devices').html('')
@@ -64,6 +65,7 @@ const geditorConfig = (assets, pageId) => {
 			grapesjsPluginExport,
 			grapesjsStyleBg,
 			chartLibComponent,
+			carosuelComponent,
 		],
 		pluginsOpts: {
 			tailwindComponent: {},
@@ -75,6 +77,7 @@ const geditorConfig = (assets, pageId) => {
 			grapesjsCarousel: {},
 			grapesjsStyleBg: {},
 			chartLibComponent: {},
+			carosuelComponent:{},
 		},
 	})
 
